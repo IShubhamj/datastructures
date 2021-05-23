@@ -18,11 +18,13 @@ class Stack {
   }
 }
 
-// const s = new Stack();
-// s.push(1);
-// s.push(2);
-// s.push(3);
-
-// s.pop();
+const s = new Stack();
+console.log("After creating first instance \n", s.getStack());
+s.push(1);
+s.push(2);
+s.push(3);
+console.log("Filled Stack \n", s.getStack());
+s.pop();
+console.log("After popped 1st element \n", s.getStack());
 
 module.exports = Stack;

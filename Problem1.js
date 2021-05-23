@@ -2,8 +2,8 @@
 
 const Stack = require("./Stack");
 
-const s1 = new Queue();
-const s2 = new Queue();
+const s1 = new Stack();
+const s2 = new Stack();
 // Inserting values in stack1
 s1.push("Red");
 s1.push("Blue");

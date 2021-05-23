@@ -1,0 +1,8 @@
+Problem - Check if given string is palindrome or not
+
+What is Palindrome 
+Answer - Palindrome are strings which forms same word if it is reversed.
+
+Eg - abcba if you reverse it will be same
+     tiger if you reverse it it won't be same
+

@@ -1,0 +1,6 @@
+Problem statement -
+
+Does given string have any repeated characters
+
+Eg - "I like coffee" => f, i and e
+     "buy a phone" => no repeating chars

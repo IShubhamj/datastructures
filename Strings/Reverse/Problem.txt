@@ -1,0 +1,20 @@
+Problem statement -
+
+Write a function which will accept a string and return it's reverse version.
+
+Eg:  Input - hello
+     Output - olleh
+    
+    
+    Input - abcdef 
+    Output - fedcba
+
+There are three solutions
+
+Solution1 contains raw logic without leveraging any inbuilt functions
+
+Solution2 uses ES6 methods like split, reduce to achieve expected Output
+
+Solution3 is ES6 one line solution using split, reverse, join
+
+in Solution 2 & 3 we are leveraging js inbuilt functions like split, reverse and join

@@ -1,0 +1,23 @@
+Problem statement - write a function to reverse a given number
+
+Eg - 789 -> 987
+     500 -> 5
+     -789 -> -987
+     -500 -> -5
+
+// Conversion  
+By converting number to string we can reverse it but we need to care for sign and return type
+
+// Int => String
+so to convert number toString use 
+toString() method
+
+// String => Int
+to convert back it into number use
+parseInt() method
+
+// multiply reversed number by Math.sign(originalNumber);
+if we pass positive value to Math.sign(500) it will return 1
+if we pass negative value to Math.sign(-500) it will return -1
+
+this way we can take care of signs
