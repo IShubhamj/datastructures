@@ -1,0 +1,5 @@
+Anagram, MaxChar, RepeatedChar
+
+are basically includes one step which is called creating characterMap
+
+you can use same logic in pretty much all char comparison programs..
