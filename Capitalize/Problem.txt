@@ -1,0 +1,6 @@
+Problem Statement
+
+Write a function that accepts string and capitalize 1st letter and return it
+
+eg - 
+     ace in algorithm interviews
