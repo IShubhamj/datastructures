@@ -1,0 +1,5 @@
+Problem Statement -
+Given Array and chunk size, function should return one big array containing sub arrays of chunk size.
+
+Eg - ([1,2,3,4,5,6], 2) => [[1,2],[3,4], [5,6]];
+     ([1,2,3,4,5,6], 4) => [[1,2,3,4],[5,6]];

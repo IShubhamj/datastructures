@@ -3,3 +3,7 @@ Problem Statement -
 Print fizz and number if that number is multiple of 3
 Print buzz and number if that number is multiple of 5
 Print fizz buzz and number if that number is multiple of 3 and 5
+
+
+Solution one is simple for approach
+Solution two is a recursive function approach
