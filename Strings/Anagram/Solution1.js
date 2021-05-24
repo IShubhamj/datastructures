@@ -1,8 +1,3 @@
-/* Problem statement: check if given 2 strings are anagrams or not
-Definition - An anagram is a word or phrase formed by rearranging the letters 
-of a different word or phrase,typically using all the original letters exactly once.
-*/
-
 function isAnagram(s1, s2) {
   charMap1 = createCharMap(s1);
   charMap2 = createCharMap(s2);

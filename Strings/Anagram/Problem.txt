@@ -1,0 +1,10 @@
+Problem statement: 
+check if given 2 strings are anagrams or not
+
+What is anagram ?
+An anagram is a word or phrase formed by rearranging the letters of a different word or phrase,typically using all the 
+original letters exactly once.
+
+Eg -
+      stol , lost => true
+      build , bullied => false
