@@ -1,0 +1,6 @@
+Find the number of vowels in given string.
+
+Vowels are a, e, i, o, u
+
+Eg: 
+    "Hello there" => 4
