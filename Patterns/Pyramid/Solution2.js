@@ -1,4 +1,4 @@
-function pyramid(n, row = 0, column = 0, level = "") {
+function pyramid(n, row = 0, level = "") {
   let midPoint = Math.floor((2 * n - 1) / 2);
   if (n === row) {
     return;
@@ -10,12 +10,12 @@ function pyramid(n, row = 0, column = 0, level = "") {
     return;
   }
 
-  if (midPoint - row <= column && midPoint + row >= column) {
+  if (midPoint - row <= level.length && midPoint + row >= level.length) {
     level += "#";
   } else {
     level += " ";
   }
-  pyramid(n, row, column + 1, level);
+  pyramid(n, row, level);
 }
 
 pyramid(8);
