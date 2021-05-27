@@ -1,6 +1,6 @@
-// Problem Statement : Make a queue using 2 stacks
+// Problem Statement : Implement a queue using 2 stacks
 
-const Stack = require("./Stack");
+const Stack = require("./DataStructure/Stack/Stack");
 
 const s1 = new Stack();
 const s2 = new Stack();

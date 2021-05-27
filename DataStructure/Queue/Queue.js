@@ -1,5 +1,5 @@
 class Queue {
-  #data; // Private variable
+  #data; // Private variable "by putting hash you can make variable private"
 
   constructor() {
     this.#data = [];
@@ -11,10 +11,12 @@ class Queue {
   }
 
   remove() {
-    this.#data.pop();
-    console.log(this.#data);
+    return this.#data.pop();
   }
 
+  peek() {
+    return this.#data[this.#data.length - 1];
+  }
   getQueue() {
     return this.#data;
   }
@@ -28,3 +30,5 @@ q.add(3);
 console.log("Items in Queue \n", q.getQueue());
 q.remove();
 console.log("After removing a element \n", q.getQueue());
+
+module.exports = Queue;
