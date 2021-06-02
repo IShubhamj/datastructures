@@ -24,7 +24,10 @@ N1 {12, null}
 N2 {13, N1}
 */
   insertFirst(data) {
-    this.head = new Node(data, this.head);
+    this.insertAt(data, 0);
+    // this.head = new Node(data, this.head);
+
+    // both approach are correct but I'm reusing my insertAt Method
   }
 
   size() {
@@ -38,20 +41,27 @@ N2 {13, N1}
   }
 
   getFirst() {
-    return this.head;
+    return this.getAt(0);
+    // return this.head;
+
+    // both approach are correct but I'm reusing my insertAt Method
   }
 
   getLast() {
-    if (!this.head) {
-      return null;
-    }
-    let node = this.head;
-    while (node) {
-      if (!node.next) {
-        return node;
-      }
-      node = node.next;
-    }
+    // if (!this.head) {
+    //   return null;
+    // }
+    // let node = this.head;
+    // while (node) {
+    //   if (!node.next) {
+    //     return node;
+    //   }
+    //   node = node.next;
+    // }
+
+    return this.getAt(this.size() - 1);
+
+    // both approach are correct but I'm reusing my insertAt Method
   }
 
   clear() {
